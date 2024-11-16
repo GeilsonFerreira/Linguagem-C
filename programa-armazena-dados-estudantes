@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int estudanteID = 15;
+    int estudanteIdade = 23;
+    float estudantePeso = 75.25;
+    char estudanteTurma = 'B';
+
+    printf("Estudante Id: %d\n" , estudanteID);
+    printf("Idade do Estudante: %d\n", estudanteIdade);
+    printf("Peso do Estudante: %f\n", estudantePeso);
+    printf("Turma do Estudante: %c\n", estudanteTurma);
+    return 0;
+    }
